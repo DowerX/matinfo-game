@@ -1,0 +1,684 @@
+fileFormatVersion: 2
+guid: 91b4439cc4c3369459935205b65eb3d5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 7125_001
+    100002: 7125_002
+    100004: Antenna_001
+    100006: B_2_001
+    100008: B_2_002
+    100010: Belt_001
+    100012: Belt_002
+    100014: bonnet_ok_001
+    100016: boot_ok01_001
+    100018: boot_ok_001
+    100020: brake_001
+    100022: brake_003
+    100024: brake_005
+    100026: brake_007
+    100028: Buckle_001
+    100030: Buckle_002
+    100032: bump_fro01_001
+    100034: bump_fro02_001
+    100036: bump_rea01_001
+    100038: chassis_hi_001
+    100040: D_1_001
+    100042: D_1_002
+    100044: door_lf_01_001
+    100046: door_lf_ok_001
+    100048: door_lr_01_001
+    100050: door_lr_01_002
+    100052: door_lr_ok_001
+    100054: door_lr_ok_002
+    100056: door_rf_01_001
+    100058: door_rf_ok_001
+    100060: front_la01_001
+    100062: front_la02_001
+    100064: front_lanp_001
+    100066: Front_Seat_001
+    100068: Front_Seat_002
+    100070: interior_001
+    100072: interior_b_001
+    100074: mafrer_001
+    100076: MM_001
+    100078: MM_002
+    100080: Plate_44_001
+    100082: Plate_44_003
+    100084: Plate_Holder_001
+    100086: rear_lan01_001
+    100088: rear_lanp_001
+    100090: rear_lanp__001
+    100092: Side_Mirrors_001
+    100094: Side_Mirrors_002
+    100096: steering_001
+    100098: //RootNode
+    100100: wheel_001
+    100102: wheel_002
+    100104: wheel_003
+    100106: wheel_004
+    100108: window_001
+    400000: 7125_001
+    400002: 7125_002
+    400004: Antenna_001
+    400006: B_2_001
+    400008: B_2_002
+    400010: Belt_001
+    400012: Belt_002
+    400014: bonnet_ok_001
+    400016: boot_ok01_001
+    400018: boot_ok_001
+    400020: brake_001
+    400022: brake_003
+    400024: brake_005
+    400026: brake_007
+    400028: Buckle_001
+    400030: Buckle_002
+    400032: bump_fro01_001
+    400034: bump_fro02_001
+    400036: bump_rea01_001
+    400038: chassis_hi_001
+    400040: D_1_001
+    400042: D_1_002
+    400044: door_lf_01_001
+    400046: door_lf_ok_001
+    400048: door_lr_01_001
+    400050: door_lr_01_002
+    400052: door_lr_ok_001
+    400054: door_lr_ok_002
+    400056: door_rf_01_001
+    400058: door_rf_ok_001
+    400060: front_la01_001
+    400062: front_la02_001
+    400064: front_lanp_001
+    400066: Front_Seat_001
+    400068: Front_Seat_002
+    400070: interior_001
+    400072: interior_b_001
+    400074: mafrer_001
+    400076: MM_001
+    400078: MM_002
+    400080: Plate_44_001
+    400082: Plate_44_003
+    400084: Plate_Holder_001
+    400086: rear_lan01_001
+    400088: rear_lanp_001
+    400090: rear_lanp__001
+    400092: Side_Mirrors_001
+    400094: Side_Mirrors_002
+    400096: steering_001
+    400098: //RootNode
+    400100: wheel_001
+    400102: wheel_002
+    400104: wheel_003
+    400106: wheel_004
+    400108: window_001
+    2100000: 7125_001Mat
+    2100002: 7125_002Mat
+    2100004: Antenna_001Mat
+    2100006: B_2_001Mat
+    2100008: B_2_002Mat
+    2100010: Belt_001Mat
+    2100012: Belt_002Mat
+    2100014: bonnet_ok_001Mat
+    2100016: boot_ok01_001Mat
+    2100018: boot_ok_001Mat
+    2100020: brake_001Mat
+    2100022: brake_003Mat
+    2100024: brake_005Mat
+    2100026: brake_007Mat
+    2100028: Buckle_001Mat
+    2100030: Buckle_002Mat
+    2100032: bump_fro01_001Mat
+    2100034: bump_fro02_001Mat
+    2100036: bump_rea01_001Mat
+    2100038: chassis_hi_001Mat
+    2100040: D_1_001Mat
+    2100042: D_1_002Mat
+    2100044: door_lf_01_001Mat
+    2100046: door_lf_ok_001Mat
+    2100048: door_lr_01_001Mat
+    2100050: door_lr_01_002Mat
+    2100052: door_lr_ok_001Mat
+    2100054: door_lr_ok_002Mat
+    2100056: door_rf_01_001Mat
+    2100058: door_rf_ok_001Mat
+    2100060: front_la01_001Mat
+    2100062: front_la02_001Mat
+    2100064: front_lanp_001Mat
+    2100066: Front_Seat_001Mat
+    2100068: Front_Seat_002Mat
+    2100070: interior_001Mat
+    2100072: interior_b_001Mat
+    2100074: mafrer_001Mat
+    2100076: MM_001Mat
+    2100078: MM_002Mat
+    2100080: Plate_44_001Mat
+    2100082: Plate_44_003Mat
+    2100084: Plate_Holder_001Mat
+    2100086: rear_lan01_001Mat
+    2100088: rear_lanp_001Mat
+    2100090: rear_lanp__001Mat
+    2100092: Side_Mirrors_001Mat
+    2100094: Side_Mirrors_002Mat
+    2100096: steering_001Mat
+    2100098: wheel_001Mat
+    2100100: wheel_002Mat
+    2100102: wheel_003Mat
+    2100104: wheel_004Mat
+    2100106: window_001Mat
+    2300000: 7125_001
+    2300002: 7125_002
+    2300004: Antenna_001
+    2300006: B_2_001
+    2300008: B_2_002
+    2300010: Belt_001
+    2300012: Belt_002
+    2300014: bonnet_ok_001
+    2300016: boot_ok01_001
+    2300018: boot_ok_001
+    2300020: brake_001
+    2300022: brake_003
+    2300024: brake_005
+    2300026: brake_007
+    2300028: Buckle_001
+    2300030: Buckle_002
+    2300032: bump_fro01_001
+    2300034: bump_fro02_001
+    2300036: bump_rea01_001
+    2300038: chassis_hi_001
+    2300040: D_1_001
+    2300042: D_1_002
+    2300044: door_lf_01_001
+    2300046: door_lf_ok_001
+    2300048: door_lr_01_001
+    2300050: door_lr_01_002
+    2300052: door_lr_ok_001
+    2300054: door_lr_ok_002
+    2300056: door_rf_01_001
+    2300058: door_rf_ok_001
+    2300060: front_la01_001
+    2300062: front_la02_001
+    2300064: front_lanp_001
+    2300066: Front_Seat_001
+    2300068: Front_Seat_002
+    2300070: interior_001
+    2300072: interior_b_001
+    2300074: mafrer_001
+    2300076: MM_001
+    2300078: MM_002
+    2300080: Plate_44_001
+    2300082: Plate_44_003
+    2300084: Plate_Holder_001
+    2300086: rear_lan01_001
+    2300088: rear_lanp_001
+    2300090: rear_lanp__001
+    2300092: Side_Mirrors_001
+    2300094: Side_Mirrors_002
+    2300096: steering_001
+    2300098: wheel_001
+    2300100: wheel_002
+    2300102: wheel_003
+    2300104: wheel_004
+    2300106: window_001
+    3300000: 7125_001
+    3300002: 7125_002
+    3300004: Antenna_001
+    3300006: B_2_001
+    3300008: B_2_002
+    3300010: Belt_001
+    3300012: Belt_002
+    3300014: bonnet_ok_001
+    3300016: boot_ok01_001
+    3300018: boot_ok_001
+    3300020: brake_001
+    3300022: brake_003
+    3300024: brake_005
+    3300026: brake_007
+    3300028: Buckle_001
+    3300030: Buckle_002
+    3300032: bump_fro01_001
+    3300034: bump_fro02_001
+    3300036: bump_rea01_001
+    3300038: chassis_hi_001
+    3300040: D_1_001
+    3300042: D_1_002
+    3300044: door_lf_01_001
+    3300046: door_lf_ok_001
+    3300048: door_lr_01_001
+    3300050: door_lr_01_002
+    3300052: door_lr_ok_001
+    3300054: door_lr_ok_002
+    3300056: door_rf_01_001
+    3300058: door_rf_ok_001
+    3300060: front_la01_001
+    3300062: front_la02_001
+    3300064: front_lanp_001
+    3300066: Front_Seat_001
+    3300068: Front_Seat_002
+    3300070: interior_001
+    3300072: interior_b_001
+    3300074: mafrer_001
+    3300076: MM_001
+    3300078: MM_002
+    3300080: Plate_44_001
+    3300082: Plate_44_003
+    3300084: Plate_Holder_001
+    3300086: rear_lan01_001
+    3300088: rear_lanp_001
+    3300090: rear_lanp__001
+    3300092: Side_Mirrors_001
+    3300094: Side_Mirrors_002
+    3300096: steering_001
+    3300098: wheel_001
+    3300100: wheel_002
+    3300102: wheel_003
+    3300104: wheel_004
+    3300106: window_001
+    4300000: 7125_001
+    4300002: 7125_002
+    4300004: Antenna_001
+    4300006: B_2_001
+    4300008: B_2_002
+    4300010: Belt_001
+    4300012: Belt_002
+    4300014: bonnet_ok_001
+    4300016: boot_ok01_001
+    4300018: boot_ok_001
+    4300020: brake_001
+    4300022: brake_003
+    4300024: brake_005
+    4300026: brake_007
+    4300028: Buckle_001
+    4300030: Buckle_002
+    4300032: bump_fro01_001
+    4300034: bump_fro02_001
+    4300036: bump_rea01_001
+    4300038: chassis_hi_001
+    4300040: D_1_001
+    4300042: D_1_002
+    4300044: door_lf_01_001
+    4300046: door_lf_ok_001
+    4300048: door_lr_01_001
+    4300050: door_lr_01_002
+    4300052: door_lr_ok_001
+    4300054: door_lr_ok_002
+    4300056: door_rf_01_001
+    4300058: door_rf_ok_001
+    4300060: front_la01_001
+    4300062: front_la02_001
+    4300064: front_lanp_001
+    4300066: Front_Seat_001
+    4300068: Front_Seat_002
+    4300070: interior_001
+    4300072: interior_b_001
+    4300074: mafrer_001
+    4300076: MM_001
+    4300078: MM_002
+    4300080: Plate_44_001
+    4300082: Plate_44_003
+    4300084: Plate_Holder_001
+    4300086: rear_lan01_001
+    4300088: rear_lanp_001
+    4300090: rear_lanp__001
+    4300092: Side_Mirrors_001
+    4300094: Side_Mirrors_002
+    4300096: steering_001
+    4300098: wheel_001
+    4300100: wheel_002
+    4300102: wheel_003
+    4300104: wheel_004
+    4300106: window_001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7125_001Mat
+    second: {fileID: 2100000, guid: 96b478dde13429747ad33e631ab20d19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7125_002Mat
+    second: {fileID: 2100000, guid: 5be0d01893ca58e4fb4069adc1b6c7bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Antenna_001Mat
+    second: {fileID: 2100000, guid: 074dcd4fd249b9442b45899e9ecbd576, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_2_001Mat
+    second: {fileID: 2100000, guid: 88db587af2543f34a92d0e26af990477, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_2_002Mat
+    second: {fileID: 2100000, guid: 98c7f9f1f76a13e41a048444817621f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Belt_001Mat
+    second: {fileID: 2100000, guid: 1779dee297517ce44aeda5e935380e3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Belt_002Mat
+    second: {fileID: 2100000, guid: 81e671ec4c356a243b20c3c78963fcd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buckle_001Mat
+    second: {fileID: 2100000, guid: 9a8020bd3154e954b9a9fea3ca8c8a54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buckle_002Mat
+    second: {fileID: 2100000, guid: 475d627ce60ea174ca5b8f66c67a91d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D_1_001Mat
+    second: {fileID: 2100000, guid: a4dbaa927ed6b374db4fc121919edf14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D_1_002Mat
+    second: {fileID: 2100000, guid: cb8b77efeb885e543ab6770236b49127, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Front_Seat_001Mat
+    second: {fileID: 2100000, guid: 440878a9f777ead419d72968aeb3c4d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Front_Seat_002Mat
+    second: {fileID: 2100000, guid: 9dc110d38dce0f24ab6b61b5c941f24d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MM_001Mat
+    second: {fileID: 2100000, guid: 2fec3a1494510574d96268426c27b783, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MM_002Mat
+    second: {fileID: 2100000, guid: efbbdb08feb2df04cafb0d75d1f209d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plate_44_001Mat
+    second: {fileID: 2100000, guid: 6a9ce3146c1cda744b2d4ac837165a4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plate_44_003Mat
+    second: {fileID: 2100000, guid: 70cad1d82dfea9149a5feb4feae2b75c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plate_Holder_001Mat
+    second: {fileID: 2100000, guid: f0f6286494f218a468b0d01f51278971, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Side_Mirrors_001Mat
+    second: {fileID: 2100000, guid: b8bfbc0a1b79afd419be9509bffabf5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Side_Mirrors_002Mat
+    second: {fileID: 2100000, guid: 245ff252c0baa1c40884ee4f3fa4df06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bonnet_ok_001Mat
+    second: {fileID: 2100000, guid: 21748680f2ce1f74586991b301059aba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boot_ok01_001Mat
+    second: {fileID: 2100000, guid: 144b84b3c4b2c764f95cf2352c866413, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boot_ok_001Mat
+    second: {fileID: 2100000, guid: 2b9768f6a19cafb42aaff56bf1de5843, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brake_001Mat
+    second: {fileID: 2100000, guid: e6499262bfb25294c91cf8c4d850d420, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brake_003Mat
+    second: {fileID: 2100000, guid: 8fe0ecb45e869f1428ad9081acb2a548, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brake_005Mat
+    second: {fileID: 2100000, guid: 51791db9e98a7d344ac5c392bebbe9ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brake_007Mat
+    second: {fileID: 2100000, guid: 517a51efc52dc1f499b987c361366174, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bump_fro01_001Mat
+    second: {fileID: 2100000, guid: e297e8b1602280643aa47a5176fabf5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bump_fro02_001Mat
+    second: {fileID: 2100000, guid: 7304d6651819c0d439fe6fdf5ebeed2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bump_rea01_001Mat
+    second: {fileID: 2100000, guid: 8aee8f5f66bb1b34b8f413e0c0436d40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chassis_hi_001Mat
+    second: {fileID: 2100000, guid: 6c161c2e261bd3742903ae2081870f77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_lf_01_001Mat
+    second: {fileID: 2100000, guid: 6200e893db70ecf4ea69afdf44a1d73c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_lf_ok_001Mat
+    second: {fileID: 2100000, guid: e771d89d7b88a524d9c635616975592c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_lr_01_001Mat
+    second: {fileID: 2100000, guid: 4086e0a3917a58d4a99deebde2a4f9d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_lr_01_002Mat
+    second: {fileID: 2100000, guid: 27e487c050c8d7748a3c3383ace01be1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_lr_ok_001Mat
+    second: {fileID: 2100000, guid: 23ae66982fcdd2c4d9189fa82008268a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_lr_ok_002Mat
+    second: {fileID: 2100000, guid: 2bed5183765ae004e9652754ee0ed38c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_rf_01_001Mat
+    second: {fileID: 2100000, guid: f36563671c943064699797d889722651, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_rf_ok_001Mat
+    second: {fileID: 2100000, guid: 11cb1a8afcf198a4e97a26162b13e7b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: front_la01_001Mat
+    second: {fileID: 2100000, guid: 0838f70d1f538af4b82320d5e8fb0a55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: front_la02_001Mat
+    second: {fileID: 2100000, guid: 47fd6857af223004c984fc368c507de9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: front_lanp_001Mat
+    second: {fileID: 2100000, guid: 9ee093ed45c249b4197510d61b5a8473, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: interior_001Mat
+    second: {fileID: 2100000, guid: 14fad303ca9e0254fb2a913bc9ae932d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: interior_b_001Mat
+    second: {fileID: 2100000, guid: 3b08d4440da5ae640ad5856efd9206a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mafrer_001Mat
+    second: {fileID: 2100000, guid: e25d8a5c9892f084d99ac024bb7ad7c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rear_lan01_001Mat
+    second: {fileID: 2100000, guid: b5df11769708c06489abef01685dfac5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rear_lanp_001Mat
+    second: {fileID: 2100000, guid: fc58dd9664c9fea4f9de83d9b48b2313, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rear_lanp__001Mat
+    second: {fileID: 2100000, guid: 3daa9fda7ac135c479c406c74771c9ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steering_001Mat
+    second: {fileID: 2100000, guid: b9ca6c0a2965d5a4a9efca21b782682f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wheel_001Mat
+    second: {fileID: 2100000, guid: 385167a8a5ae71542a8cece497fb14ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wheel_002Mat
+    second: {fileID: 2100000, guid: c60a085608fbb8f45ae819c7cca843ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wheel_003Mat
+    second: {fileID: 2100000, guid: 59c1958fbc1973e44b8dee747446295f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wheel_004Mat
+    second: {fileID: 2100000, guid: 3be897f49aff50b41a7c012f9be530bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_001Mat
+    second: {fileID: 2100000, guid: 0172bbf91abf58041be53e702f931334, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
