@@ -47,7 +47,9 @@ public class Car : MonoBehaviour {
     public bool rearWD = true;
     public bool frontWD = true;
 
-
+    public int a;
+    public int b;
+    public int c;
 
     [Header("Input settings:")]
 
@@ -57,6 +59,14 @@ public class Car : MonoBehaviour {
     [Tooltip("Enables the player to flip back the car if he crashed it.")]
     public bool Flip = true;
 
+
+    private void OnEnable()
+    {
+        l1.ConfigureVehicleSubsteps(a, b, c);
+        l2.ConfigureVehicleSubsteps(a, b, c);
+        r1.ConfigureVehicleSubsteps(a, b, c);
+        r2.ConfigureVehicleSubsteps(a, b, c);
+    }
 
     private void Update()
     {
