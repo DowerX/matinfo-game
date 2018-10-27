@@ -6,6 +6,8 @@ public class Car : MonoBehaviour {
     public WheelCollider r1;
     public WheelCollider r2;
 
+    public float visualSpeed = 1;
+
     public Transform l1_t;
     public Transform l2_t;
     public Transform r1_t;
@@ -26,17 +28,17 @@ public class Car : MonoBehaviour {
 
     [Header("Car settings:")]
 
-    [Tooltip("Default:1000")]
-    public float speed = 1000f;
+    [Tooltip("Default:300")]
+    public float speed = 300f;
 
-    [Tooltip("Default:10000")]
-    public float breakingForce = 10000f;
+    [Tooltip("Default:500")]
+    public float breakingForce = 500f;
 
     [Range(0f,89f)]
     [Tooltip("Default:45°")]
     public float maxSteering = 45f;
 
-    [Range(0f, 90f)]
+    [Range(-90f, 90f)]
     [Tooltip("Correcting wheel rotaition. Default:0°")]
     public float steeringOffsetY = 0f;
 
@@ -47,9 +49,12 @@ public class Car : MonoBehaviour {
     public bool rearWD = true;
     public bool frontWD = true;
 
+    [Space]
+    [Header("Wheel Collider configuration:")]
     public int a;
     public int b;
     public int c;
+    [Space]
 
     [Header("Input settings:")]
 
@@ -129,13 +134,13 @@ public class Car : MonoBehaviour {
         r1_t.position = r1_v;
         r2_t.position = r2_v;
 
-        xd = new Quaternion(0, 0, -l1_q.x, l1_q.w);
+        xd = new Quaternion(0, 0, l1_q.x * visualSpeed, l1_q.w);
         l1_t.localRotation = xd;
-        xd = new Quaternion(0, 0, -l2_q.x, l2_q.w);
+        xd = new Quaternion(0, 0, l2_q.x * visualSpeed, l2_q.w);
         l2_t.localRotation = xd;
-        xd = new Quaternion(0, 0, -r1_q.x, r1_q.w);
+        xd = new Quaternion(0, 0, r1_q.x * visualSpeed, r1_q.w);
         r1_t.localRotation = xd;
-        xd = new Quaternion(0, 0, -r2_q.x, r2_q.w);
+        xd = new Quaternion(0, 0, r2_q.x * visualSpeed, r2_q.w);
         r2_t.localRotation = xd;
     }
 

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.PostProcessing;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Console : MonoBehaviour {
 
@@ -18,7 +19,6 @@ public class Console : MonoBehaviour {
     private string outp;
 
     [Header("Specific:")]
-    [Header("Spawner prefabs:")]
     public GameObject[] prefabs;
 
     [Space]
@@ -161,6 +161,12 @@ public class Console : MonoBehaviour {
             if(_input[0] == "settings")
             {
                 Log("Opening settings.");
+                FindObjectOfType<Menu>().SettingsMenu();
+            }
+
+            if (_input[0] == "info")
+            {
+                Log("Version 1.0");
                 FindObjectOfType<Menu>().SettingsMenu();
             }
         }
