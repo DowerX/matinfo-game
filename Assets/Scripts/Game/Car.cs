@@ -79,7 +79,7 @@ public class Car : MonoBehaviour {
 
         if (Input.GetButtonDown("Submit"))
         {
-            transform.rotation = new Quaternion(0, Quaternion.identity.y, 0, 0);
+            transform.rotation = new Quaternion(0, transform.rotation.y, 0, 0);
             transform.position = new Vector3(transform.position.x, transform.position.y + 1, transform.position.z);
         }
 
