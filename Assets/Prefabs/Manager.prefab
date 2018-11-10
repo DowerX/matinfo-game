@@ -1119,7 +1119,7 @@ MonoBehaviour:
   canvas: {fileID: 1801737984300066}
   inputField: {fileID: 114820524766547030}
   output: {fileID: 114268010135848756}
-  openKey: insert
+  openKey: delete
   enter: home
   prefabs:
   - {fileID: 1496651670337758, guid: 2349eefd59dc88249bb6447d1f58a8c6, type: 2}
