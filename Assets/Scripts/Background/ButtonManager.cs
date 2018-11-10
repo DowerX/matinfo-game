@@ -5,12 +5,13 @@ public class ButtonManager : MonoBehaviour {
 
     public void Garage()
     {
-        FindObjectOfType<Menu>().LoadID(7);
+        FindObjectOfType<Menu>().LoadID(6);
     }
 
-    public void Generate(InputField _inputField)
+    public void Generate()
     {
-        FindObjectOfType<Menu>().Load(_inputField);
+        FindObjectOfType<Manager>().path = GameObject.Find("GeneratedPlayInput").GetComponent<InputField>().text;
+        FindObjectOfType<Menu>().LoadID(1);
     }
 
     public void Settings()

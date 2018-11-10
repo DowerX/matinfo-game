@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class Manager : MonoBehaviour {
 
     [Header("Level generation path:")]
-    public InputField inputField;
+    public string path;
 
     [Header("Car prefab id:")]
     public int car = 0;
@@ -19,8 +19,7 @@ public class Manager : MonoBehaviour {
     {
         if(level == 1)
         {
-            FindObjectOfType<LevelGenerator>().Work(inputField.text);
-            //GetComponent<Menu>().working = false;
+            FindObjectOfType<LevelGenerator>().Work(path);
         } else
         {
             Instantiate(cars[car], GameObject.FindGameObjectWithTag("Spawn").transform.position, GameObject.FindGameObjectWithTag("Spawn").transform.rotation);

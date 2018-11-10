@@ -21,23 +21,9 @@ public class Menu : MonoBehaviour
 
     public bool working = true;
 
-    public void GenerateAndLoad(int id)
-    {
-        operation = SceneManager.LoadSceneAsync(id);
-
-        foreach (GameObject obj in objects)
-        {
-            obj.SetActive(false);
-        }
-
-        loadingBar.gameObject.SetActive(true);
-
-        fade.GetComponent<Animator>().SetTrigger("fadeout");
-    }
-
     private void OnLevelWasLoaded(int level)
     {
-        fade.GetComponent<Animator>().SetTrigger("fadein");
+        loadingBar.gameObject.SetActive(false);
     }
 
     public void Load(InputField input)
@@ -53,7 +39,6 @@ public class Menu : MonoBehaviour
         }
         loadingBar.gameObject.SetActive(true);
 
-        fade.GetComponent<Animator>().SetTrigger("fadeout");
     }
 
     public void LoadID(int _id)
@@ -63,9 +48,9 @@ public class Menu : MonoBehaviour
         {
             obj.SetActive(false);
         }
+
         loadingBar.gameObject.SetActive(true);
 
-        fade.GetComponent<Animator>().SetTrigger("fadeout");
     }
 
     public void SettingsMenu()
@@ -74,24 +59,24 @@ public class Menu : MonoBehaviour
         settings.SetActive(isSettings);
     }
 
-    //private void Update()
-    //{
-    //    //Update while loading
-    //    if(operation != null)
-    //    {
-    //        if (working)
-    //        {
-    //            loadingBar.value = Mathf.Clamp01(operation.progress);
-    //            percentige.text = (Mathf.Clamp01(operation.progress) * 100).ToString() + "%";
-    //        }
-    //    }
-    //}
-
-    private void Start()
+    private void Update()
     {
-        //percentige = GameObject.Find("").GetComponent<Text>();
-        objects[0] = GameObject.Find("PremadePlay");
-        objects[1] = GameObject.Find("GeneratedPlay");
-        objects[2] = GameObject.Find("Settings");
+        //Update while loading
+        if (operation != null)
+        {
+            if (working)
+            {
+                loadingBar.value = Mathf.Clamp01(operation.progress);
+                percentige.text = (Mathf.Clamp01(operation.progress) * 100).ToString() + "%";
+            }
+        }
+
+        if (Input.GetKeyDown("escape") && SceneManager.GetActiveScene().buildIndex != 0)
+        {
+            LoadID(0);
+
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
     }
 }

@@ -6,6 +6,10 @@ public class ManagerSpawner : MonoBehaviour {
 
 	void Start () {
         manager = FindObjectOfType<Manager>();
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
         if (manager)
             return;
 
