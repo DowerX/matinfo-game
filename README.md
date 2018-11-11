@@ -1,5 +1,4 @@
-# matinfo-game
-Béna Racer v1.0 (készítette Benedek László)
+#Béna Racer v1.0 (készítette Benedek László)
 GitHub: https://github.com/DowerX/matinfo-game
 Készült a Unity Engine 5 (2018.2) felhsználásával (https://unity3d.com/)
 
@@ -8,7 +7,7 @@ Egy autós játék. Cél: minél rövidebb idő alatt tegyünk meg köröket a p
 Két autó és 4 pálya válsztható a Garázsban.
 
 
-Irányítás:
+##Irányítás:
 	előre - W / Up
 	hátra - S / Down
 	jobbra - D / Right
@@ -20,7 +19,7 @@ Irányítás:
 	nézelődés a garázsban - egér
 
 
-Console parancsok:
+##Console parancsok:
 	"pp [STATE]": post processing efektek beállítása,[STATE]: true / false, pl: "pp ture"
 	"help": parancsok listája
 	"info": a játék verzíóját írja ki
@@ -36,7 +35,7 @@ Console parancsok:
 	"input_type": váltási lehetőség billentyűzetes irányításról PlayStation 4 kontrollerre és vissza
 
 
-Kép betöltése pályaként:
+##Kép betöltése pályaként:
 	feltételek:	100*100 px
 			(átlátszó háttér) (ajánlott a gyorsabb feldolgozás érdekében de elméletileg nem szükséges)
 			egy RGB(255, 0, 0) színű pixel => autó
