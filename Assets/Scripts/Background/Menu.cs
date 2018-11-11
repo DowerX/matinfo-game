@@ -4,6 +4,8 @@ using UnityEngine.UI;
 
 public class Menu : MonoBehaviour
 {
+
+    #region
     [Header("Loading:")]
     public Text percentige;
     private AsyncOperation operation;
@@ -18,6 +20,8 @@ public class Menu : MonoBehaviour
     [Header("Settings menu:")]
     public GameObject settings;
     private bool isSettings = false;
+
+    #endregion
 
     public bool working = true;
 

@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
 using UnityEngine.PostProcessing;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class Console : MonoBehaviour {
 
+    //Variables
+    #region
     public GameObject canvas;
     public InputField inputField;
     public Text output;
@@ -25,7 +26,7 @@ public class Console : MonoBehaviour {
     [Space]
     public FPScounter fps;
     public SoundManager sound;
-
+    #endregion
 
     private void Start()
     {
@@ -126,7 +127,7 @@ public class Console : MonoBehaviour {
 
             if (_input[0] == "help")
             {
-                Log("Commands: help, spawn, input_type, pp, map, echo, fps_counter, quit .");
+                Log("Commands: help, spawn [ID] [X] [Y] [Z], input_type, pp [STATE], map [ID], echo [STRING], fps_counter, quit, generate [PATH], destroy_generated, destroy_tag [TAG], settings.");
                 return;
             }
 
@@ -167,6 +168,7 @@ public class Console : MonoBehaviour {
             if (_input[0] == "info")
             {
                 Log("Version 1.0");
+                Log("Made by BENEDEK László");
                 FindObjectOfType<Menu>().SettingsMenu();
             }
         }
