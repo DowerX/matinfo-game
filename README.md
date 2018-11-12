@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # matinfo-game
+=======
+#matinfo-game
+>>>>>>> 87a1fddeb1cb8fd45f7fe0e8f5f031a04ddf0d1e
 =======
 #matinfo-game
 >>>>>>> 87a1fddeb1cb8fd45f7fe0e8f5f031a04ddf0d1e
